@@ -1,10 +1,10 @@
 {
   "name": "velotracker",
   "version": "1.0.0",
-  "main": "nodemon server/velo_server.js",
+  "main": "server/velo_server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "devStart": "nodemon server/velo_server.js"
+    "dev": "nodemon server/velo_server.js",
+    "start": "node server/velo_server.js"
   },
   "keywords": [],
   "author": "",
